@@ -11,10 +11,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Step 1: Check out the repository code
+      # Check out the repository code
       - name: Checkout code
         uses: actions/checkout@v3
 
-      # Step 2: Run a basic command
+      # Run a basic command
       - name: Run a command
         run: echo "Hello, GitHub Actions!"
